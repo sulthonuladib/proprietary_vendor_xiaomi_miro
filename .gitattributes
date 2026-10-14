@@ -1,0 +1,3 @@
+proprietary/odm/etc/camera/unet.serialized.bin filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_turbo_fusion_mfnr.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libarcsoft_raw_sr.so filter=lfs diff=lfs merge=lfs -text
