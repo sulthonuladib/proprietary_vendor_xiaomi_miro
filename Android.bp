@@ -17,23 +17,6 @@ soong_namespace {
     ],
 }
 
-cc_prebuilt_library_shared {
-    name: "graphicbuffersource-aidl-ndk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/graphicbuffersource-aidl-ndk.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-}
 
 cc_prebuilt_library_shared {
     name: "android.hardware.vibrator-V1-ndk_platform",
