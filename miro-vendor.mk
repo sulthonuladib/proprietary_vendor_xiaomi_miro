@@ -1535,7 +1535,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miro/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
     vendor/xiaomi/miro/proprietary/vendor/etc/ITVDD.txt:$(TARGET_COPY_OUT_VENDOR)/etc/ITVDD.txt \
     vendor/xiaomi/miro/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/xiaomi/miro/proprietary/vendor/etc/aconfig_flags.pb:$(TARGET_COPY_OUT_VENDOR)/etc/aconfig_flags.pb \
     vendor/xiaomi/miro/proprietary/vendor/etc/aidl/hfp/hfp_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/hfp/hfp_codec_capabilities.xml \
     vendor/xiaomi/miro/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.bfbs:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.bfbs \
     vendor/xiaomi/miro/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.json \
@@ -2468,7 +2467,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sigma_miracast.xml \
     vendor.qti.hardware.sigma_miracast_aidl.xml \
     vendor.qti.qesdsys.service.xml \
-    AHBF-V3-service.xml \
     android.hardware.biometrics.face-v4.xml \
     android.hardware.security.keymint-service.strongbox.xml \
     android.hardware.security.sharedsecret-service.strongbox.xml \

@@ -19,6 +19,7 @@ soong_namespace {
 
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "android.hardware.vibrator-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -44,6 +45,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.android.ozoaudio.notify-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -69,6 +71,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.fingerprints.extension3-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -94,6 +97,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "ftm_fm_lib",
     owner: "xiaomi",
     strip: {
@@ -128,6 +132,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "audio.bluetooth_qti.default",
     owner: "xiaomi",
     strip: {
@@ -167,6 +172,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libDcfHalFramework",
     owner: "xiaomi",
     strip: {
@@ -193,6 +199,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libDcfHalLogger",
     owner: "xiaomi",
     strip: {
@@ -220,6 +227,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSEGModel",
     owner: "xiaomi",
     strip: {
@@ -246,6 +254,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSNPESample",
     owner: "xiaomi",
     strip: {
@@ -274,6 +283,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libTxPwrJni",
     owner: "xiaomi",
     strip: {
@@ -302,6 +312,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libav_ozoencoder",
     owner: "xiaomi",
     strip: {
@@ -334,6 +345,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_BasedOnCC_VolDown",
     owner: "xiaomi",
     strip: {
@@ -366,6 +378,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_ChargeInfo",
     owner: "xiaomi",
     strip: {
@@ -398,6 +411,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_ClosedSourceClass",
     owner: "xiaomi",
     strip: {
@@ -430,6 +444,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_ExampleClass",
     owner: "xiaomi",
     strip: {
@@ -462,6 +477,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_FreqChgFvDown",
     owner: "xiaomi",
     strip: {
@@ -494,6 +510,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_LowSohFvDown",
     owner: "xiaomi",
     strip: {
@@ -526,6 +543,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbaa_common",
     owner: "xiaomi",
     strip: {
@@ -557,6 +575,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbase64",
     owner: "xiaomi",
     strip: {
@@ -584,6 +603,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libboot_control_qti",
     owner: "xiaomi",
     strip: {
@@ -614,6 +634,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcameraobserver",
     owner: "xiaomi",
     strip: {
@@ -642,6 +663,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcameraopt",
     owner: "xiaomi",
     strip: {
@@ -681,6 +703,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcert_parse.wpa_s",
     owner: "xiaomi",
     strip: {
@@ -706,6 +729,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcrypto_data",
     owner: "xiaomi",
     strip: {
@@ -730,6 +754,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdiagjni",
     owner: "xiaomi",
     strip: {
@@ -758,6 +783,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdmap_consent_sdk",
     owner: "xiaomi",
     strip: {
@@ -787,6 +813,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdpp_manager",
     owner: "xiaomi",
     strip: {
@@ -813,6 +840,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libfastcrc",
     owner: "xiaomi",
     strip: {
@@ -839,6 +867,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libfdmonitor",
     owner: "xiaomi",
     strip: {
@@ -867,6 +896,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhalide_hexagon_host",
     owner: "xiaomi",
     strip: {
@@ -890,6 +920,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhwfenceclient",
     owner: "xiaomi",
     strip: {
@@ -917,6 +948,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libjni_imageutil",
     owner: "xiaomi",
     strip: {
@@ -947,6 +979,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libloadtrusteduiapp",
     owner: "xiaomi",
     strip: {
@@ -978,6 +1011,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmapdata_api",
     owner: "xiaomi",
     strip: {
@@ -1009,6 +1043,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo",
     owner: "xiaomi",
     strip: {
@@ -1040,6 +1075,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libminkipcbinder_vendor",
     owner: "xiaomi",
     strip: {
@@ -1070,6 +1106,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiracast",
     owner: "xiaomi",
     strip: {
@@ -1101,6 +1138,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "liboem_specific",
     owner: "xiaomi",
     strip: {
@@ -1126,6 +1164,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "liboemaids_vendor",
     owner: "xiaomi",
     strip: {
@@ -1150,6 +1189,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencl_loader",
     owner: "xiaomi",
     strip: {
@@ -1175,6 +1215,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencv_core",
     owner: "xiaomi",
     strip: {
@@ -1201,6 +1242,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencv_core_se",
     owner: "xiaomi",
     strip: {
@@ -1227,6 +1269,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencv_imgproc",
     owner: "xiaomi",
     strip: {
@@ -1252,6 +1295,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencv_imgproc_se",
     owner: "xiaomi",
     strip: {
@@ -1277,6 +1321,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libozoaudio",
     owner: "xiaomi",
     strip: {
@@ -1302,6 +1347,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libozoaudioutils",
     owner: "xiaomi",
     strip: {
@@ -1326,6 +1372,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libozocapability",
     owner: "xiaomi",
     strip: {
@@ -1353,6 +1400,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libozotensorflowlite_c",
     owner: "xiaomi",
     strip: {
@@ -1378,6 +1426,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libpolygon",
     owner: "xiaomi",
     strip: {
@@ -1405,6 +1454,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqape_oem_ext",
     owner: "xiaomi",
     strip: {
@@ -1432,6 +1482,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqms_optimized_route_mgr_sdk",
     owner: "xiaomi",
     strip: {
@@ -1461,6 +1512,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqms_packetstats_sdk",
     owner: "xiaomi",
     strip: {
@@ -1490,6 +1542,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqms_sdf_sdk",
     owner: "xiaomi",
     strip: {
@@ -1519,6 +1572,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqsh_ble_pb",
     owner: "xiaomi",
     strip: {
@@ -1545,6 +1599,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqsh_wifi_test",
     owner: "xiaomi",
     strip: {
@@ -1571,6 +1626,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqtbase",
     owner: "xiaomi",
     strip: {
@@ -1604,6 +1660,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqti-MemHal-client",
     owner: "xiaomi",
     strip: {
@@ -1635,6 +1692,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqtjsonhelper",
     owner: "xiaomi",
     strip: {
@@ -1665,6 +1723,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqtnodes",
     owner: "xiaomi",
     strip: {
@@ -1703,6 +1762,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqttestclient",
     owner: "xiaomi",
     strip: {
@@ -1736,6 +1796,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqttestservice",
     owner: "xiaomi",
     strip: {
@@ -1769,6 +1830,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqvr_cam_cdsp_driver_stub",
     owner: "xiaomi",
     strip: {
@@ -1795,6 +1857,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqvr_cdsp_driver_stub",
     owner: "xiaomi",
     strip: {
@@ -1821,6 +1884,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqvr_eyetracking_plugin",
     owner: "xiaomi",
     strip: {
@@ -1848,6 +1912,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqvrcamera_client.qti",
     owner: "xiaomi",
     strip: {
@@ -1896,6 +1961,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqwes",
     owner: "xiaomi",
     strip: {
@@ -1926,6 +1992,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "librecovery_updater",
     owner: "xiaomi",
     strip: {
@@ -1954,6 +2021,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "librecovery_updater_msm",
     owner: "xiaomi",
     strip: {
@@ -1982,6 +2050,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libreffeature",
     owner: "xiaomi",
     strip: {
@@ -2011,6 +2080,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsamplefilterplugin",
     owner: "xiaomi",
     strip: {
@@ -2052,6 +2122,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsbprovision",
     owner: "xiaomi",
     strip: {
@@ -2083,6 +2154,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsensinghubapi",
     owner: "xiaomi",
     strip: {
@@ -2110,6 +2182,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsensinghubsession",
     owner: "xiaomi",
     strip: {
@@ -2134,6 +2207,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libstreamprocessor",
     owner: "xiaomi",
     strip: {
@@ -2164,6 +2238,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsxrservice_client.qti",
     owner: "xiaomi",
     strip: {
@@ -2194,6 +2269,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libtracker_6dof_impl",
     owner: "xiaomi",
     strip: {
@@ -2216,6 +2292,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libvideorecovery_vendor",
     owner: "xiaomi",
     strip: {
@@ -2246,6 +2323,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libvideoserviceclientimpl_vendor",
     owner: "xiaomi",
     strip: {
@@ -2279,6 +2357,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libvideoserviceutils",
     owner: "xiaomi",
     strip: {
@@ -2311,6 +2390,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libvpptestutils",
     owner: "xiaomi",
     strip: {
@@ -2339,6 +2419,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommconnection",
     owner: "xiaomi",
     strip: {
@@ -2370,6 +2451,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommcoreutils",
     owner: "xiaomi",
     strip: {
@@ -2397,6 +2479,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommdiscoveryservice",
     owner: "xiaomi",
     strip: {
@@ -2426,6 +2509,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommdiscoveryservice2",
     owner: "xiaomi",
     strip: {
@@ -2454,6 +2538,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommdiscoveryservice2_client",
     owner: "xiaomi",
     strip: {
@@ -2483,6 +2568,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommdiscoveryservice_client",
     owner: "xiaomi",
     strip: {
@@ -2512,6 +2598,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommdpqaservice",
     owner: "xiaomi",
     strip: {
@@ -2541,6 +2628,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommdpqaservice_client",
     owner: "xiaomi",
     strip: {
@@ -2570,6 +2658,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommnetworkservice",
     owner: "xiaomi",
     strip: {
@@ -2601,6 +2690,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommnetworkservice_client",
     owner: "xiaomi",
     strip: {
@@ -2631,6 +2721,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommservice_client",
     owner: "xiaomi",
     strip: {
@@ -2662,6 +2753,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommtimerservice",
     owner: "xiaomi",
     strip: {
@@ -2690,6 +2782,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommtimerservice_client",
     owner: "xiaomi",
     strip: {
@@ -2718,6 +2811,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommtrafficshaperservice",
     owner: "xiaomi",
     strip: {
@@ -2747,6 +2841,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommtrafficshaperservice_client",
     owner: "xiaomi",
     strip: {
@@ -2775,6 +2870,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommwirelesslinkconfigservice",
     owner: "xiaomi",
     strip: {
@@ -2804,6 +2900,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommwirelesslinkconfigservice_client",
     owner: "xiaomi",
     strip: {
@@ -2832,6 +2929,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxrcommwpacliwrapper",
     owner: "xiaomi",
     strip: {
@@ -3259,6 +3357,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.display.color@1.6",
     owner: "xiaomi",
     strip: {
@@ -3293,6 +3392,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.display.color@1.7",
     owner: "xiaomi",
     strip: {
@@ -3328,6 +3428,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -3353,6 +3454,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.MemHal-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3378,6 +3480,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.agm-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3404,6 +3507,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.automotive.vehicle@1.0",
     owner: "xiaomi",
     strip: {
@@ -3433,6 +3537,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.c2pa-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3459,6 +3564,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.minkipcbinder-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3485,6 +3591,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.pal-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3512,6 +3619,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.sigma_miracast_aidl-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3537,6 +3645,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.trustedui@1.0",
     owner: "xiaomi",
     strip: {
@@ -3565,6 +3674,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.wifi.wifilearner-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3590,6 +3700,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.aidl.minet-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3615,6 +3726,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.aidl.miwill-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3640,6 +3752,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.aidl.miwill@1.0-impl",
     owner: "xiaomi",
     strip: {
@@ -3671,6 +3784,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.cit.wifi-V2-ndk",
     owner: "xiaomi",
     strip: {
@@ -3696,6 +3810,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.aek-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3721,6 +3836,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.aidl.intentaware-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -3746,6 +3862,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.aon-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3771,6 +3888,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.batteryantiaging-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3796,6 +3914,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.companion-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3821,6 +3940,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.companion-impl",
     owner: "xiaomi",
     strip: {
@@ -3849,6 +3969,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.injection-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3876,6 +3997,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.injection-client",
     owner: "xiaomi",
     strip: {
@@ -3911,6 +4033,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.injection-service",
     owner: "xiaomi",
     strip: {
@@ -3953,6 +4076,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.synthetic-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -3979,6 +4103,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.camera.synthetic-impl",
     owner: "xiaomi",
     strip: {
@@ -4008,6 +4133,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.cld_aidl-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4033,6 +4159,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.fbo-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4058,6 +4185,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.fingerprintextension-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4083,6 +4211,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mikeybag-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4108,6 +4237,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mimd2-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4133,6 +4263,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.miperf2-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4158,6 +4289,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.misys.common-V3-ndk",
     owner: "xiaomi",
     strip: {
@@ -4183,6 +4315,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.otrpagent2-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4209,6 +4342,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.swap-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4234,6 +4368,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.videoservice-V6-ndk",
     owner: "xiaomi",
     strip: {
@@ -4260,6 +4395,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.vsimapp-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4285,6 +4421,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.wifi.hardware-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4311,6 +4448,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.wifi.hostapd-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4336,6 +4474,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.wifi.supplicant-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4361,6 +4500,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.modem.qms-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4386,6 +4526,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.sensor.camera-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -4528,6 +4669,7 @@ prebuilt_rfsa {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qualcomm.qti.ant@1.0",
     owner: "xiaomi",
     strip: {
@@ -4556,6 +4698,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qualcomm.qti.bluetooth_audio@1.0",
     owner: "xiaomi",
     strip: {
@@ -4584,6 +4727,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.api@1.0",
     owner: "xiaomi",
     strip: {
@@ -4613,6 +4757,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.api@1.1",
     owner: "xiaomi",
     strip: {
@@ -4643,6 +4788,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.constants@1.0",
     owner: "xiaomi",
     strip: {
@@ -4671,6 +4817,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.constants@2.0",
     owner: "xiaomi",
     strip: {
@@ -4699,6 +4846,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.constants@2.1",
     owner: "xiaomi",
     strip: {
@@ -4727,6 +4875,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.server@1.0",
     owner: "xiaomi",
     strip: {
@@ -4756,6 +4905,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.server@2.0",
     owner: "xiaomi",
     strip: {
@@ -4785,6 +4935,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.server@2.1",
     owner: "xiaomi",
     strip: {
@@ -4815,6 +4966,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.quicinc.cne.server@2.2",
     owner: "xiaomi",
     strip: {
@@ -4847,6 +4999,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.sigma_miracast@1.0-impl",
     owner: "xiaomi",
     strip: {
@@ -4875,6 +5028,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdolbyeffect",
     owner: "xiaomi",
     strip: {
@@ -4901,6 +5055,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdpmframework",
     owner: "xiaomi",
     strip: {
@@ -4953,6 +5108,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmosal",
     owner: "xiaomi",
     strip: {
@@ -4980,6 +5136,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmparser_lite",
     owner: "xiaomi",
     strip: {
@@ -5008,6 +5165,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmrtpdecoder",
     owner: "xiaomi",
     strip: {
@@ -5036,6 +5194,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmrtpencoder",
     owner: "xiaomi",
     strip: {
@@ -5064,6 +5223,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqcc_file_agent_sys",
     owner: "xiaomi",
     strip: {
@@ -5090,6 +5250,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsigmautils",
     owner: "xiaomi",
     strip: {
@@ -5119,6 +5280,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdclient",
     owner: "xiaomi",
     strip: {
@@ -5155,6 +5317,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdcommonutils",
     owner: "xiaomi",
     strip: {
@@ -5200,6 +5363,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdconfigutils",
     owner: "xiaomi",
     strip: {
@@ -5231,6 +5395,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfddisplayconfig",
     owner: "xiaomi",
     strip: {
@@ -5263,6 +5428,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdmminterface",
     owner: "xiaomi",
     strip: {
@@ -5290,6 +5456,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdmmsink",
     owner: "xiaomi",
     strip: {
@@ -5337,6 +5504,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdrtsp",
     owner: "xiaomi",
     strip: {
@@ -5367,6 +5535,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfdsinksm",
     owner: "xiaomi",
     strip: {
@@ -5407,6 +5576,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfduibcinterface",
     owner: "xiaomi",
     strip: {
@@ -5437,6 +5607,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfduibcsink",
     owner: "xiaomi",
     strip: {
@@ -5466,6 +5637,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfduibcsinkinterface",
     owner: "xiaomi",
     strip: {
@@ -5497,6 +5669,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfduibcsrc",
     owner: "xiaomi",
     strip: {
@@ -5528,6 +5701,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwfduibcsrcinterface",
     owner: "xiaomi",
     strip: {
@@ -5559,6 +5733,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@1.0",
     owner: "xiaomi",
     strip: {
@@ -5597,6 +5772,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.0",
     owner: "xiaomi",
     strip: {
@@ -5632,6 +5808,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.1",
     owner: "xiaomi",
     strip: {
@@ -5670,6 +5847,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.2",
     owner: "xiaomi",
     strip: {
@@ -5710,6 +5888,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.3",
     owner: "xiaomi",
     strip: {
@@ -5752,6 +5931,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.4",
     owner: "xiaomi",
     strip: {
@@ -5796,6 +5976,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.5",
     owner: "xiaomi",
     strip: {
@@ -5843,6 +6024,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.6",
     owner: "xiaomi",
     strip: {
@@ -5894,6 +6076,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.7",
     owner: "xiaomi",
     strip: {
@@ -5947,6 +6130,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.data.factory@2.8",
     owner: "xiaomi",
     strip: {
@@ -6003,6 +6187,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.alarm@1.0",
     owner: "xiaomi",
     strip: {
@@ -6031,6 +6216,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.cvp@1.0",
     owner: "xiaomi",
     strip: {
@@ -6059,6 +6245,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.cne.internal.api@1.0",
     owner: "xiaomi",
     strip: {
@@ -6088,6 +6275,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
     owner: "xiaomi",
     strip: {
@@ -6116,6 +6304,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.cne.internal.server@1.0",
     owner: "xiaomi",
     strip: {
@@ -6145,6 +6334,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.cne.internal.server@1.1",
     owner: "xiaomi",
     strip: {
@@ -6175,6 +6365,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.cne.internal.server@1.2",
     owner: "xiaomi",
     strip: {
@@ -6206,6 +6397,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.cne.internal.server@1.3",
     owner: "xiaomi",
     strip: {
@@ -6238,6 +6430,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.iwlan@1.0",
     owner: "xiaomi",
     strip: {
@@ -6271,6 +6464,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.iwlan@1.1",
     owner: "xiaomi",
     strip: {
@@ -6307,6 +6501,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.iwlandata-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -6335,6 +6530,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.data.qmi@1.0",
     owner: "xiaomi",
     strip: {
@@ -6363,6 +6559,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.dpmservice@1.0",
     owner: "xiaomi",
     strip: {
@@ -6391,6 +6588,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.dpmservice@1.1",
     owner: "xiaomi",
     strip: {
@@ -6420,6 +6618,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.embmssl@1.0",
     owner: "xiaomi",
     strip: {
@@ -6448,6 +6647,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.embmssl@1.1",
     owner: "xiaomi",
     strip: {
@@ -6477,6 +6677,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.limits@1.0",
     owner: "xiaomi",
     strip: {
@@ -6506,6 +6707,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.limits@1.1",
     owner: "xiaomi",
     strip: {
@@ -6536,6 +6738,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.mwqemadapter@1.0",
     owner: "xiaomi",
     strip: {
@@ -6564,6 +6767,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.qccsyshal@1.0",
     owner: "xiaomi",
     strip: {
@@ -6592,6 +6796,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.qccsyshal@1.1",
     owner: "xiaomi",
     strip: {
@@ -6621,6 +6826,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.qccsyshal@1.2-halimpl",
     owner: "xiaomi",
     strip: {
@@ -6656,6 +6862,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.qccsyshal@1.2",
     owner: "xiaomi",
     strip: {
@@ -6686,6 +6893,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.qccvndhal@1.0",
     owner: "xiaomi",
     strip: {
@@ -6714,6 +6922,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.qteeconnector-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -6740,6 +6949,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.radio.ims@1.9",
     owner: "xiaomi",
     strip: {
@@ -6777,6 +6987,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.radio.lpa@1.3",
     owner: "xiaomi",
     strip: {
@@ -6808,6 +7019,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.radio.qtiradio@2.7",
     owner: "xiaomi",
     strip: {
@@ -6846,6 +7058,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.seccam@1.0",
     owner: "xiaomi",
     strip: {
@@ -6874,6 +7087,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.sigma_miracast@1.0-halimpl",
     owner: "xiaomi",
     strip: {
@@ -6903,6 +7117,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.sigma_miracast@1.0",
     owner: "xiaomi",
     strip: {
@@ -6931,6 +7146,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.slmadapter@1.0",
     owner: "xiaomi",
     strip: {
@@ -6959,6 +7175,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.wifidisplaysession@1.0",
     owner: "xiaomi",
     strip: {
@@ -6987,6 +7204,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.wigig.supptunnel@1.0",
     owner: "xiaomi",
     strip: {
@@ -7015,6 +7233,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.configservice@1.0",
     owner: "xiaomi",
     strip: {
@@ -7043,6 +7262,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.configservice@1.1",
     owner: "xiaomi",
     strip: {
@@ -7072,6 +7292,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.connection@1.0",
     owner: "xiaomi",
     strip: {
@@ -7100,6 +7321,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.factory@1.0",
     owner: "xiaomi",
     strip: {
@@ -7130,6 +7352,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.factory@1.1",
     owner: "xiaomi",
     strip: {
@@ -7162,6 +7385,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.factory@2.0",
     owner: "xiaomi",
     strip: {
@@ -7195,6 +7419,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.factory@2.1",
     owner: "xiaomi",
     strip: {
@@ -7232,6 +7457,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.factory@2.2",
     owner: "xiaomi",
     strip: {
@@ -7272,6 +7498,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.rcssip@1.0",
     owner: "xiaomi",
     strip: {
@@ -7300,6 +7527,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.rcssip@1.1",
     owner: "xiaomi",
     strip: {
@@ -7329,6 +7557,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.rcssip@1.2",
     owner: "xiaomi",
     strip: {
@@ -7359,6 +7588,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.rcsuce@1.0",
     owner: "xiaomi",
     strip: {
@@ -7387,6 +7617,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.rcsuce@1.1",
     owner: "xiaomi",
     strip: {
@@ -7416,6 +7647,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.ims.rcsuce@1.2",
     owner: "xiaomi",
     strip: {
@@ -7446,6 +7678,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.latency@2.3",
     owner: "xiaomi",
     strip: {
@@ -7478,6 +7711,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.qspmhal@1.0",
     owner: "xiaomi",
     strip: {
@@ -7506,6 +7740,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.actuator.miro_ofilm_s5kjn5_gt9764v_tele3x_i_actuator",
     owner: "xiaomi",
     strip: {
@@ -7552,6 +7787,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.actuator.miro_sunny_ovx8000_gt9764v_wide_i_actuator",
     owner: "xiaomi",
     strip: {
@@ -7598,6 +7834,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eeprom.miro_aac_s5kkd1_gt24p64e_front_i_eeprom",
     owner: "xiaomi",
     strip: {
@@ -7644,6 +7881,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eeprom.miro_ofilm_s5kjn5_gt24p128f_tele3x_i_eeprom",
     owner: "xiaomi",
     strip: {
@@ -7690,6 +7928,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eeprom.miro_ofilm_s5kkd1_gt24p128f_ultra_i_eeprom",
     owner: "xiaomi",
     strip: {
@@ -7736,6 +7975,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eeprom.miro_sunny_ov20b40_gt24p64e_front_i_eeprom",
     owner: "xiaomi",
     strip: {
@@ -7782,6 +8022,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eeprom.miro_sunny_ovx8000_gt24p128f_wide_i_eeprom",
     owner: "xiaomi",
     strip: {
@@ -7828,6 +8069,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.ois.miro_ofilm_s5kjn5_bu24619_tele3x_i_ois",
     owner: "xiaomi",
     strip: {
@@ -7874,6 +8116,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.sensor.miro_aac_s5kkd1_front_i",
     owner: "xiaomi",
     strip: {
@@ -7920,6 +8163,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.sensor.miro_ofilm_s5kjn5_tele3x_i",
     owner: "xiaomi",
     strip: {
@@ -7966,6 +8210,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.sensor.miro_ofilm_s5kkd1_ultra_i",
     owner: "xiaomi",
     strip: {
@@ -8012,6 +8257,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.sensor.miro_sunny_ov20b40_front_i",
     owner: "xiaomi",
     strip: {
@@ -8058,6 +8304,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.sensor.miro_sunny_ovx8000_wide_i",
     owner: "xiaomi",
     strip: {
@@ -8104,6 +8351,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.arcsoft.node.videobokeh",
     owner: "xiaomi",
     strip: {
@@ -8155,6 +8403,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.aiasd",
     owner: "xiaomi",
     strip: {
@@ -8212,6 +8461,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.facealign",
     owner: "xiaomi",
     strip: {
@@ -8249,6 +8499,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.fd",
     owner: "xiaomi",
     strip: {
@@ -8288,6 +8539,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.miaihighlight",
     owner: "xiaomi",
     strip: {
@@ -8327,6 +8579,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.mimovie",
     owner: "xiaomi",
     strip: {
@@ -8359,6 +8612,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.mioisverify",
     owner: "xiaomi",
     strip: {
@@ -8392,6 +8646,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.realtimebokeh",
     owner: "xiaomi",
     strip: {
@@ -8425,6 +8680,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.singlebokeh",
     owner: "xiaomi",
     strip: {
@@ -8457,6 +8713,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.tsskinbeautifier",
     owner: "xiaomi",
     strip: {
@@ -8497,6 +8754,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.videofilter",
     owner: "xiaomi",
     strip: {
@@ -8548,6 +8806,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.mi.node.videonight",
     owner: "xiaomi",
     strip: {
@@ -8601,6 +8860,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eisv2",
     owner: "xiaomi",
     strip: {
@@ -8631,6 +8891,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.eisv3",
     owner: "xiaomi",
     strip: {
@@ -8661,6 +8922,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hvx.addconstant",
     owner: "xiaomi",
     strip: {
@@ -8688,6 +8950,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hvx.binning",
     owner: "xiaomi",
     strip: {
@@ -8715,6 +8978,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hwcfg.bps",
     owner: "xiaomi",
     strip: {
@@ -8747,6 +9011,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hwcfg.ife",
     owner: "xiaomi",
     strip: {
@@ -8779,6 +9044,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hwcfg.ipe",
     owner: "xiaomi",
     strip: {
@@ -8811,6 +9077,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hwcfg.mctfe",
     owner: "xiaomi",
     strip: {
@@ -8843,6 +9110,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.hwcfg.ofe",
     owner: "xiaomi",
     strip: {
@@ -8875,6 +9143,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.afbfusion",
     owner: "xiaomi",
     strip: {
@@ -8906,6 +9175,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.aon",
     owner: "xiaomi",
     strip: {
@@ -8955,6 +9225,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.customhwnode",
     owner: "xiaomi",
     strip: {
@@ -8986,6 +9257,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.depth",
     owner: "xiaomi",
     strip: {
@@ -9033,6 +9305,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.depthprovider",
     owner: "xiaomi",
     strip: {
@@ -9107,6 +9380,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.dummydepth",
     owner: "xiaomi",
     strip: {
@@ -9139,6 +9413,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.dummyrtb",
     owner: "xiaomi",
     strip: {
@@ -9169,6 +9444,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.dummysat",
     owner: "xiaomi",
     strip: {
@@ -9199,6 +9475,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.eisv2",
     owner: "xiaomi",
     strip: {
@@ -9253,6 +9530,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.eisv3",
     owner: "xiaomi",
     strip: {
@@ -9307,6 +9585,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.evadepth",
     owner: "xiaomi",
     strip: {
@@ -9360,6 +9639,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.evaitof",
     owner: "xiaomi",
     strip: {
@@ -9413,6 +9693,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.evawarp",
     owner: "xiaomi",
     strip: {
@@ -9466,6 +9747,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.evs",
     owner: "xiaomi",
     strip: {
@@ -9496,6 +9778,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.fcv",
     owner: "xiaomi",
     strip: {
@@ -9529,6 +9812,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.fd",
     owner: "xiaomi",
     strip: {
@@ -9583,6 +9867,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.formatconversion",
     owner: "xiaomi",
     strip: {
@@ -9614,6 +9899,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.frc",
     owner: "xiaomi",
     strip: {
@@ -9669,6 +9955,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.gme",
     owner: "xiaomi",
     strip: {
@@ -9724,6 +10011,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.gpu",
     owner: "xiaomi",
     strip: {
@@ -9757,6 +10045,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.gyrornn",
     owner: "xiaomi",
     strip: {
@@ -9811,6 +10100,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.hdr10pgen",
     owner: "xiaomi",
     strip: {
@@ -9856,6 +10146,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.hdr10phist",
     owner: "xiaomi",
     strip: {
@@ -9900,6 +10191,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.hdralign",
     owner: "xiaomi",
     strip: {
@@ -9955,6 +10247,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.intelligentfocus",
     owner: "xiaomi",
     strip: {
@@ -9991,6 +10284,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.itofpreprocess",
     owner: "xiaomi",
     strip: {
@@ -10038,6 +10332,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.ldc",
     owner: "xiaomi",
     strip: {
@@ -10070,6 +10365,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.mctfalign",
     owner: "xiaomi",
     strip: {
@@ -10125,6 +10421,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.memcpy",
     owner: "xiaomi",
     strip: {
@@ -10156,6 +10453,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.ml",
     owner: "xiaomi",
     strip: {
@@ -10201,6 +10499,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.mlinference",
     owner: "xiaomi",
     strip: {
@@ -10245,6 +10544,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.mmfalign",
     owner: "xiaomi",
     strip: {
@@ -10299,6 +10599,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.muxer",
     owner: "xiaomi",
     strip: {
@@ -10330,6 +10631,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.pixelstats",
     owner: "xiaomi",
     strip: {
@@ -10373,6 +10675,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.qsatalign",
     owner: "xiaomi",
     strip: {
@@ -10427,6 +10730,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.rectification",
     owner: "xiaomi",
     strip: {
@@ -10480,6 +10784,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.remosaic",
     owner: "xiaomi",
     strip: {
@@ -10510,6 +10815,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.sat",
     owner: "xiaomi",
     strip: {
@@ -10562,6 +10868,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.seg",
     owner: "xiaomi",
     strip: {
@@ -10617,6 +10924,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.spdepth",
     owner: "xiaomi",
     strip: {
@@ -10670,6 +10978,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.stich",
     owner: "xiaomi",
     strip: {
@@ -10700,6 +11009,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swaidenoiser",
     owner: "xiaomi",
     strip: {
@@ -10736,6 +11046,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swbestats",
     owner: "xiaomi",
     strip: {
@@ -10772,6 +11083,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swcac",
     owner: "xiaomi",
     strip: {
@@ -10804,6 +11116,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swec",
     owner: "xiaomi",
     strip: {
@@ -10848,6 +11161,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swfusion",
     owner: "xiaomi",
     strip: {
@@ -10884,6 +11198,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swhme",
     owner: "xiaomi",
     strip: {
@@ -10921,6 +11236,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swlsc",
     owner: "xiaomi",
     strip: {
@@ -10958,6 +11274,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swmctf",
     owner: "xiaomi",
     strip: {
@@ -10994,6 +11311,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swmlremosaic",
     owner: "xiaomi",
     strip: {
@@ -11026,6 +11344,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swpdpc",
     owner: "xiaomi",
     strip: {
@@ -11063,6 +11382,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swpreprocess",
     owner: "xiaomi",
     strip: {
@@ -11093,6 +11413,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swregistration",
     owner: "xiaomi",
     strip: {
@@ -11135,6 +11456,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.node.swvrt",
     owner: "xiaomi",
     strip: {
@@ -11179,6 +11501,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.aec",
     owner: "xiaomi",
     strip: {
@@ -11210,6 +11533,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.aecwrapper",
     owner: "xiaomi",
     strip: {
@@ -11240,6 +11564,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.aecxcore",
     owner: "xiaomi",
     strip: {
@@ -11272,6 +11597,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.af",
     owner: "xiaomi",
     strip: {
@@ -11303,6 +11629,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.afc",
     owner: "xiaomi",
     strip: {
@@ -11334,6 +11661,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.afd",
     owner: "xiaomi",
     strip: {
@@ -11365,6 +11693,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.afwrapper",
     owner: "xiaomi",
     strip: {
@@ -11395,6 +11724,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.asd",
     owner: "xiaomi",
     strip: {
@@ -11426,6 +11756,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.awb",
     owner: "xiaomi",
     strip: {
@@ -11457,6 +11788,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.awbr",
     owner: "xiaomi",
     strip: {
@@ -11488,6 +11820,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.caflogicaldriver",
     owner: "xiaomi",
     strip: {
@@ -11518,6 +11851,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.cnndriver",
     owner: "xiaomi",
     strip: {
@@ -11559,6 +11893,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.exampleaf",
     owner: "xiaomi",
     strip: {
@@ -11590,6 +11925,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.haf",
     owner: "xiaomi",
     strip: {
@@ -11622,6 +11958,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.hafoverride",
     owner: "xiaomi",
     strip: {
@@ -11652,6 +11989,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.localhistogram",
     owner: "xiaomi",
     strip: {
@@ -11682,6 +12020,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.pdlib",
     owner: "xiaomi",
     strip: {
@@ -11713,6 +12052,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.pdlibsony",
     owner: "xiaomi",
     strip: {
@@ -11743,6 +12083,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.pdlibwrapper",
     owner: "xiaomi",
     strip: {
@@ -11773,6 +12114,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.roimixer",
     owner: "xiaomi",
     strip: {
@@ -11804,6 +12146,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.roimixerlib",
     owner: "xiaomi",
     strip: {
@@ -11834,6 +12177,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.statsgenerator",
     owner: "xiaomi",
     strip: {
@@ -11864,6 +12208,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.tracker",
     owner: "xiaomi",
     strip: {
@@ -11898,6 +12243,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qtistatic.stats.aec",
     owner: "xiaomi",
     strip: {
@@ -11929,6 +12275,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qtistatic.stats.af",
     owner: "xiaomi",
     strip: {
@@ -11960,6 +12307,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qtistatic.stats.awb",
     owner: "xiaomi",
     strip: {
@@ -11991,6 +12339,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qtistatic.stats.pdlib",
     owner: "xiaomi",
     strip: {
@@ -12022,6 +12371,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.node.alpha_blending",
     owner: "xiaomi",
     strip: {
@@ -12052,6 +12402,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.node.gme",
     owner: "xiaomi",
     strip: {
@@ -12087,6 +12438,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.node.misv2",
     owner: "xiaomi",
     strip: {
@@ -12126,6 +12478,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.node.misv3",
     owner: "xiaomi",
     strip: {
@@ -12163,6 +12516,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxdummysatsnapshotfusionwrapper",
     owner: "xiaomi",
     strip: {
@@ -12193,6 +12547,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxdummysatsoftwarefusionwrapper",
     owner: "xiaomi",
     strip: {
@@ -12223,6 +12578,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxdummysatwrapper",
     owner: "xiaomi",
     strip: {
@@ -12253,6 +12609,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxevainterface",
     owner: "xiaomi",
     strip: {
@@ -12297,6 +12654,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxoemsatsnapshotfusionwrapper",
     owner: "xiaomi",
     strip: {
@@ -12327,6 +12685,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxoemsatsoftwarefusionwrapper",
     owner: "xiaomi",
     strip: {
@@ -12357,6 +12716,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxoemsatwrapper",
     owner: "xiaomi",
     strip: {
@@ -12389,6 +12749,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdepthmapwrapper_itof",
     owner: "xiaomi",
     strip: {
@@ -12434,6 +12795,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdepthmapwrapper_secure",
     owner: "xiaomi",
     strip: {
@@ -12479,6 +12841,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libchxlogicalcameratable",
     owner: "xiaomi",
     strip: {
@@ -12525,6 +12888,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicamvendorcustom",
     owner: "xiaomi",
     strip: {
@@ -12558,6 +12922,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.GestureEffects",
     owner: "xiaomi",
     strip: {
@@ -12597,6 +12962,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.anchor",
     owner: "xiaomi",
     strip: {
@@ -12636,6 +13002,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.arcsoftTFPSN",
     owner: "xiaomi",
     strip: {
@@ -12672,6 +13039,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.arcsoftrawhdr",
     owner: "xiaomi",
     strip: {
@@ -12708,6 +13076,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.beautydeformation",
     owner: "xiaomi",
     strip: {
@@ -12745,6 +13114,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.capbokeh",
     owner: "xiaomi",
     strip: {
@@ -12779,6 +13149,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.capdepth",
     owner: "xiaomi",
     strip: {
@@ -12813,6 +13184,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.capspot",
     owner: "xiaomi",
     strip: {
@@ -12847,6 +13219,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.depurple",
     owner: "xiaomi",
     strip: {
@@ -12881,6 +13254,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.edof",
     owner: "xiaomi",
     strip: {
@@ -12915,6 +13289,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.facealignpreview",
     owner: "xiaomi",
     strip: {
@@ -12952,6 +13327,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.filter",
     owner: "xiaomi",
     strip: {
@@ -12990,6 +13366,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.frontbokeh",
     owner: "xiaomi",
     strip: {
@@ -13024,6 +13401,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.gainmap",
     owner: "xiaomi",
     strip: {
@@ -13059,6 +13437,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.gainmapPostProc",
     owner: "xiaomi",
     strip: {
@@ -13094,6 +13473,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.heifedit",
     owner: "xiaomi",
     strip: {
@@ -13130,6 +13510,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.jpegrAggr",
     owner: "xiaomi",
     strip: {
@@ -13168,6 +13549,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.ldc",
     owner: "xiaomi",
     strip: {
@@ -13202,6 +13584,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.memcpy",
     owner: "xiaomi",
     strip: {
@@ -13235,6 +13618,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.miaiie",
     owner: "xiaomi",
     strip: {
@@ -13270,6 +13654,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.mialgoallinone",
     owner: "xiaomi",
     strip: {
@@ -13307,6 +13692,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.mialgoanchor",
     owner: "xiaomi",
     strip: {
@@ -13344,6 +13730,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.midualcamallinone",
     owner: "xiaomi",
     strip: {
@@ -13381,6 +13768,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.movieeffect",
     owner: "xiaomi",
     strip: {
@@ -13414,6 +13802,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlineawbideal",
     owner: "xiaomi",
     strip: {
@@ -13450,6 +13839,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlineb2y",
     owner: "xiaomi",
     strip: {
@@ -13486,6 +13876,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlineformatconvertor",
     owner: "xiaomi",
     strip: {
@@ -13522,6 +13913,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinehdrraw2y",
     owner: "xiaomi",
     strip: {
@@ -13558,6 +13950,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlineheic",
     owner: "xiaomi",
     strip: {
@@ -13594,6 +13987,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinei2y",
     owner: "xiaomi",
     strip: {
@@ -13630,6 +14024,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinejpeg",
     owner: "xiaomi",
     strip: {
@@ -13666,6 +14061,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinemfnr",
     owner: "xiaomi",
     strip: {
@@ -13702,6 +14098,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinemlawb",
     owner: "xiaomi",
     strip: {
@@ -13738,6 +14135,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinetintless",
     owner: "xiaomi",
     strip: {
@@ -13774,6 +14172,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlinetintlesshdr",
     owner: "xiaomi",
     strip: {
@@ -13810,6 +14209,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlineyuvreprocess",
     owner: "xiaomi",
     strip: {
@@ -13846,6 +14246,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.offlineyuvsplit",
     owner: "xiaomi",
     strip: {
@@ -13882,6 +14283,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.pixman",
     owner: "xiaomi",
     strip: {
@@ -13919,6 +14321,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.portraitrepair",
     owner: "xiaomi",
     strip: {
@@ -13953,6 +14356,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.previewcopy",
     owner: "xiaomi",
     strip: {
@@ -13990,6 +14394,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.previewldc",
     owner: "xiaomi",
     strip: {
@@ -14024,6 +14429,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.remosaic",
     owner: "xiaomi",
     strip: {
@@ -14058,6 +14464,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.sdsr",
     owner: "xiaomi",
     strip: {
@@ -14093,6 +14500,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.singlebokehpreview",
     owner: "xiaomi",
     strip: {
@@ -14130,6 +14538,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.skinbeautifierpreview",
     owner: "xiaomi",
     strip: {
@@ -14167,6 +14576,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.swflip",
     owner: "xiaomi",
     strip: {
@@ -14200,6 +14610,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.swjpegencode",
     owner: "xiaomi",
     strip: {
@@ -14236,6 +14647,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.tsskinbeautifier",
     owner: "xiaomi",
     strip: {
@@ -14273,6 +14685,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.videofilter",
     owner: "xiaomi",
     strip: {
@@ -14308,6 +14721,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.watermark",
     owner: "xiaomi",
     strip: {
@@ -14353,6 +14767,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.plugin.yuv2Heic",
     owner: "xiaomi",
     strip: {
@@ -14390,6 +14805,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.aihighlight",
     owner: "xiaomi",
     strip: {
@@ -14422,6 +14838,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.bokehrawhdr",
     owner: "xiaomi",
     strip: {
@@ -14454,6 +14871,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.bokehsmartae",
     owner: "xiaomi",
     strip: {
@@ -14486,6 +14904,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.default",
     owner: "xiaomi",
     strip: {
@@ -14518,6 +14937,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.dsac",
     owner: "xiaomi",
     strip: {
@@ -14550,6 +14970,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.ell",
     owner: "xiaomi",
     strip: {
@@ -14582,6 +15003,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.fusion",
     owner: "xiaomi",
     strip: {
@@ -14614,6 +15036,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.hdr",
     owner: "xiaomi",
     strip: {
@@ -14646,6 +15069,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.leica",
     owner: "xiaomi",
     strip: {
@@ -14678,6 +15102,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.mfnr",
     owner: "xiaomi",
     strip: {
@@ -14710,6 +15135,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.motion",
     owner: "xiaomi",
     strip: {
@@ -14742,6 +15168,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.nightmotion",
     owner: "xiaomi",
     strip: {
@@ -14774,6 +15201,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.nightmotionzslbanding",
     owner: "xiaomi",
     strip: {
@@ -14806,6 +15234,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.single",
     owner: "xiaomi",
     strip: {
@@ -14838,6 +15267,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.zsl.sr",
     owner: "xiaomi",
     strip: {
@@ -14870,6 +15300,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "camx.device-impl",
     owner: "xiaomi",
     strip: {
@@ -14909,6 +15340,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "camx.provider-impl",
     owner: "xiaomi",
     strip: {
@@ -14951,6 +15383,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.camx.chiiqutils",
     owner: "xiaomi",
     strip: {
@@ -15004,6 +15437,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.chifeaturecompatibility",
     owner: "xiaomi",
     strip: {
@@ -15032,6 +15466,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.qseeaon",
     owner: "xiaomi",
     strip: {
@@ -15066,6 +15501,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.qseeutils",
     owner: "xiaomi",
     strip: {
@@ -15121,6 +15557,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.qti.stats.common",
     owner: "xiaomi",
     strip: {
@@ -15150,6 +15587,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.camdfx",
     owner: "xiaomi",
     strip: {
@@ -15177,6 +15615,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.camhal.submodel.camxfrag",
     owner: "xiaomi",
     strip: {
@@ -15207,6 +15646,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.immunesystem.bigdata",
     owner: "xiaomi",
     strip: {
@@ -15234,6 +15674,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.immunesystem.client",
     owner: "xiaomi",
     strip: {
@@ -15266,6 +15707,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "com.xiaomi.immunesystem.hook.camx",
     owner: "xiaomi",
     strip: {
@@ -15313,6 +15755,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "ese_weaver",
     owner: "xiaomi",
     strip: {
@@ -15346,6 +15789,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "camera.qcom.sm8750",
     owner: "xiaomi",
     strip: {
@@ -15450,6 +15894,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "fingerprint.goodix_us",
     owner: "xiaomi",
     strip: {
@@ -15501,6 +15946,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libAF",
     owner: "xiaomi",
     strip: {
@@ -15529,6 +15975,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libAncHumanPreviewBokeh",
     owner: "xiaomi",
     strip: {
@@ -15557,6 +16004,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libDlhookDumpStates",
     owner: "xiaomi",
     strip: {
@@ -15601,6 +16049,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libFS",
     owner: "xiaomi",
     strip: {
@@ -15628,6 +16077,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libITT",
     owner: "xiaomi",
     strip: {
@@ -15655,6 +16105,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libIntelligentFocus",
     owner: "xiaomi",
     strip: {
@@ -15682,6 +16133,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libMiEmojiEffect",
     owner: "xiaomi",
     strip: {
@@ -15710,6 +16162,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libMiPhotoFilter",
     owner: "xiaomi",
     strip: {
@@ -15739,6 +16192,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libMiStereoFactoryCalibAnalyzeBin_qual",
     owner: "xiaomi",
     strip: {
@@ -15767,6 +16221,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSNPE",
     owner: "xiaomi",
     strip: {
@@ -15793,6 +16248,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSnpeHta",
     owner: "xiaomi",
     strip: {
@@ -15817,6 +16273,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSnpeHtpPrepare",
     owner: "xiaomi",
     strip: {
@@ -15841,6 +16298,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSnpeHtpV79CalculatorStub",
     owner: "xiaomi",
     strip: {
@@ -15863,6 +16321,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libSnpeHtpV79Stub",
     owner: "xiaomi",
     strip: {
@@ -15888,6 +16347,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libTrueSight",
     owner: "xiaomi",
     strip: {
@@ -15918,6 +16378,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libaachaptics",
     owner: "xiaomi",
     strip: {
@@ -15943,6 +16404,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libanc_edof",
     owner: "xiaomi",
     strip: {
@@ -15968,6 +16430,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libanc_edof_checker",
     owner: "xiaomi",
     strip: {
@@ -15993,6 +16456,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libanc_single_bokeh",
     owner: "xiaomi",
     strip: {
@@ -16019,6 +16483,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarc.ion",
     owner: "xiaomi",
     strip: {
@@ -16047,6 +16512,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_qnnhtp",
     owner: "xiaomi",
     strip: {
@@ -16072,6 +16538,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_raw_sr",
     owner: "xiaomi",
     strip: {
@@ -16100,6 +16567,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_scbokeh_video",
     owner: "xiaomi",
     strip: {
@@ -16127,6 +16595,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_super_night_detection",
     owner: "xiaomi",
     strip: {
@@ -16152,6 +16621,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_fusion_mfnr",
     owner: "xiaomi",
     strip: {
@@ -16180,6 +16650,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_fusion_raw_portrait_super_night",
     owner: "xiaomi",
     strip: {
@@ -16208,6 +16679,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_fusion_raw_super_night",
     owner: "xiaomi",
     strip: {
@@ -16237,6 +16709,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_hdr_detection",
     owner: "xiaomi",
     strip: {
@@ -16262,6 +16735,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_hdr_grf",
     owner: "xiaomi",
     strip: {
@@ -16287,6 +16761,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_hdr_raw",
     owner: "xiaomi",
     strip: {
@@ -16315,6 +16790,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libarcsoft_turbo_hdr_raw_portrait",
     owner: "xiaomi",
     strip: {
@@ -16342,6 +16818,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libauthsecret_empty-nxp",
     owner: "xiaomi",
     strip: {
@@ -16369,6 +16846,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbitmlengine",
     owner: "xiaomi",
     strip: {
@@ -16399,6 +16877,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libbitmlenginev2",
     owner: "xiaomi",
     strip: {
@@ -16429,6 +16908,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamera_scene",
     owner: "xiaomi",
     strip: {
@@ -16455,6 +16935,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcameraheif",
     owner: "xiaomi",
     strip: {
@@ -16479,6 +16960,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamlog",
     owner: "xiaomi",
     strip: {
@@ -16508,6 +16990,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxcommonutils",
     owner: "xiaomi",
     strip: {
@@ -16541,6 +17024,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxcoreutils",
     owner: "xiaomi",
     strip: {
@@ -16574,6 +17058,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxcsl",
     owner: "xiaomi",
     strip: {
@@ -16610,6 +17095,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxexternalformatutils",
     owner: "xiaomi",
     strip: {
@@ -16638,6 +17124,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxfdengine",
     owner: "xiaomi",
     strip: {
@@ -16669,6 +17156,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxhwlfrontend",
     owner: "xiaomi",
     strip: {
@@ -16702,6 +17190,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxhwlipedriver",
     owner: "xiaomi",
     strip: {
@@ -16747,6 +17236,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxhwnodecontext",
     owner: "xiaomi",
     strip: {
@@ -16789,6 +17279,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxifestriping",
     owner: "xiaomi",
     strip: {
@@ -16848,6 +17339,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxncsdatafactory",
     owner: "xiaomi",
     strip: {
@@ -16889,6 +17381,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxods",
     owner: "xiaomi",
     strip: {
@@ -16922,6 +17415,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxofehwl",
     owner: "xiaomi",
     strip: {
@@ -16967,6 +17461,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxqsatalgo",
     owner: "xiaomi",
     strip: {
@@ -16996,6 +17491,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxsettingsmanager",
     owner: "xiaomi",
     strip: {
@@ -17023,6 +17519,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxstatscore",
     owner: "xiaomi",
     strip: {
@@ -17052,6 +17549,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxswispiqmodule",
     owner: "xiaomi",
     strip: {
@@ -17082,6 +17580,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxswprocessalgo",
     owner: "xiaomi",
     strip: {
@@ -17111,6 +17610,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxtintlessalgo",
     owner: "xiaomi",
     strip: {
@@ -17140,6 +17640,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcamxvppservicebase",
     owner: "xiaomi",
     strip: {
@@ -17195,6 +17696,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libchilog",
     owner: "xiaomi",
     strip: {
@@ -17222,6 +17724,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libchinodeevautils",
     owner: "xiaomi",
     strip: {
@@ -17274,6 +17777,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libchinodehmeutils",
     owner: "xiaomi",
     strip: {
@@ -17326,6 +17830,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.qti.chinodeutils",
     owner: "xiaomi",
     strip: {
@@ -17374,6 +17879,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.attribute",
     owner: "xiaomi",
     strip: {
@@ -17402,6 +17908,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.debug",
     owner: "xiaomi",
     strip: {
@@ -17434,6 +17941,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.ecoenginemonitor",
     owner: "xiaomi",
     strip: {
@@ -17467,6 +17975,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.eventcallback",
     owner: "xiaomi",
     strip: {
@@ -17495,6 +18004,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.grallocutils",
     owner: "xiaomi",
     strip: {
@@ -17527,6 +18037,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.ionutils",
     owner: "xiaomi",
     strip: {
@@ -17563,6 +18074,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.mawutilsold",
     owner: "xiaomi",
     strip: {
@@ -17609,6 +18121,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.metadatautils",
     owner: "xiaomi",
     strip: {
@@ -17638,6 +18151,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.pluginutils",
     owner: "xiaomi",
     strip: {
@@ -17680,6 +18194,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.qimagebuffer",
     owner: "xiaomi",
     strip: {
@@ -17726,6 +18241,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.sensorpolicy",
     owner: "xiaomi",
     strip: {
@@ -17760,6 +18276,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcom.xiaomi.signaltrigger",
     owner: "xiaomi",
     strip: {
@@ -17788,6 +18305,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libcommonchiutils",
     owner: "xiaomi",
     strip: {
@@ -17831,6 +18349,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libdlrmsc_android15",
     owner: "xiaomi",
     strip: {
@@ -17857,6 +18376,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libellv",
     owner: "xiaomi",
     strip: {
@@ -17882,6 +18402,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libfastmessage",
     owner: "xiaomi",
     strip: {
@@ -17927,6 +18448,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libfcsam",
     owner: "xiaomi",
     strip: {
@@ -17950,6 +18472,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libgf_hal",
     owner: "xiaomi",
     strip: {
@@ -17986,6 +18509,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhandgesture.arcsoft",
     owner: "xiaomi",
     strip: {
@@ -18011,6 +18535,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhdr10plus",
     owner: "xiaomi",
     strip: {
@@ -18038,6 +18563,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libheichal",
     owner: "xiaomi",
     strip: {
@@ -18067,6 +18593,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhta_hexagon_runtime_snpe",
     owner: "xiaomi",
     strip: {
@@ -18092,6 +18619,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhwliqinterface2",
     owner: "xiaomi",
     strip: {
@@ -18132,6 +18660,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libhwlispcffdump",
     owner: "xiaomi",
     strip: {
@@ -18171,6 +18700,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libiqdbgmgr",
     owner: "xiaomi",
     strip: {
@@ -18201,6 +18731,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libisphwsetting",
     owner: "xiaomi",
     strip: {
@@ -18259,6 +18790,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libjc_keymint_transport_nxp",
     owner: "xiaomi",
     strip: {
@@ -18313,6 +18845,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libkeymint_empty-thales",
     owner: "xiaomi",
     strip: {
@@ -18343,6 +18876,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libkeymint_transport_empty-nxp",
     owner: "xiaomi",
     strip: {
@@ -18371,6 +18905,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiSAT",
     owner: "xiaomi",
     strip: {
@@ -18399,6 +18934,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiSATTranslate",
     owner: "xiaomi",
     strip: {
@@ -18427,6 +18963,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiStereoCalibLib_qual",
     owner: "xiaomi",
     strip: {
@@ -18456,6 +18993,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiZA",
     owner: "xiaomi",
     strip: {
@@ -18484,6 +19022,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiaio_aio_inst_seg",
     owner: "xiaomi",
     strip: {
@@ -18513,6 +19052,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiaio_aio_seg",
     owner: "xiaomi",
     strip: {
@@ -18542,6 +19082,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiaio_det_sceneseg",
     owner: "xiaomi",
     strip: {
@@ -18571,6 +19112,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiaio_head_seg",
     owner: "xiaomi",
     strip: {
@@ -18600,6 +19142,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_ai_vision",
     owner: "xiaomi",
     strip: {
@@ -18626,6 +19169,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_aihighlight",
     owner: "xiaomi",
     strip: {
@@ -18655,6 +19199,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_aio_seg",
     owner: "xiaomi",
     strip: {
@@ -18684,6 +19229,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_aisp",
     owner: "xiaomi",
     strip: {
@@ -18709,6 +19255,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_bokeh_depth",
     owner: "xiaomi",
     strip: {
@@ -18739,6 +19286,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_cls",
     owner: "xiaomi",
     strip: {
@@ -18768,6 +19316,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_depth",
     owner: "xiaomi",
     strip: {
@@ -18799,6 +19348,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_ds_nn",
     owner: "xiaomi",
     strip: {
@@ -18827,6 +19377,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_ellc",
     owner: "xiaomi",
     strip: {
@@ -18859,6 +19410,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_ie_capture",
     owner: "xiaomi",
     strip: {
@@ -18891,6 +19443,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_sd",
     owner: "xiaomi",
     strip: {
@@ -18922,6 +19475,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_sdsr",
     owner: "xiaomi",
     strip: {
@@ -18956,6 +19510,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgo_utils",
     owner: "xiaomi",
     strip: {
@@ -18981,6 +19536,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmialgoengine",
     owner: "xiaomi",
     strip: {
@@ -19024,6 +19580,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiam",
     owner: "xiaomi",
     strip: {
@@ -19049,6 +19606,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicamGlobalPool",
     owner: "xiaomi",
     strip: {
@@ -19078,6 +19636,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicamera_adapter",
     owner: "xiaomi",
     strip: {
@@ -19173,6 +19732,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicamera_fps_checker",
     owner: "xiaomi",
     strip: {
@@ -19203,6 +19763,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicamera_hal_core",
     owner: "xiaomi",
     strip: {
@@ -19264,6 +19825,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicamera_hal_policy",
     owner: "xiaomi",
     strip: {
@@ -19318,6 +19880,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmicertkey",
     owner: "xiaomi",
     strip: {
@@ -19354,6 +19917,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiface",
     owner: "xiaomi",
     strip: {
@@ -19400,6 +19964,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libminikin.xiaomi",
     owner: "xiaomi",
     strip: {
@@ -19427,6 +19992,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiocr",
     owner: "xiaomi",
     strip: {
@@ -19456,6 +20022,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiopencv",
     owner: "xiaomi",
     strip: {
@@ -19481,6 +20048,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiphone_capture_bokeh",
     owner: "xiaomi",
     strip: {
@@ -19509,6 +20077,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiphone_dualcam_depth_aideploy",
     owner: "xiaomi",
     strip: {
@@ -19534,6 +20103,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiphone_tsspot",
     owner: "xiaomi",
     strip: {
@@ -19561,6 +20131,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmiriskmanager",
     owner: "xiaomi",
     strip: {
@@ -19598,6 +20169,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmisecmedia",
     owner: "xiaomi",
     strip: {
@@ -19643,6 +20215,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmismartae",
     owner: "xiaomi",
     strip: {
@@ -19669,6 +20242,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmcamera_bestats",
     owner: "xiaomi",
     strip: {
@@ -19708,6 +20282,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmcamera_cac",
     owner: "xiaomi",
     strip: {
@@ -19749,6 +20324,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmcamera_lscv35",
     owner: "xiaomi",
     strip: {
@@ -19788,6 +20364,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmcamera_mfnr",
     owner: "xiaomi",
     strip: {
@@ -19829,6 +20406,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmcamera_mfnr_t4",
     owner: "xiaomi",
     strip: {
@@ -19870,6 +20448,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmmcamera_pdpc",
     owner: "xiaomi",
     strip: {
@@ -19909,6 +20488,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmorpho_Depurple",
     owner: "xiaomi",
     strip: {
@@ -19933,6 +20513,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmpbase",
     owner: "xiaomi",
     strip: {
@@ -19954,6 +20535,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libmseccam",
     owner: "xiaomi",
     strip: {
@@ -19998,6 +20580,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libnvttouchmv",
     owner: "xiaomi",
     strip: {
@@ -20031,6 +20614,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libocr_api",
     owner: "xiaomi",
     strip: {
@@ -20060,6 +20644,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libofflinedebugdata",
     owner: "xiaomi",
     strip: {
@@ -20090,6 +20675,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libois_channel_stub",
     owner: "xiaomi",
     strip: {
@@ -20120,6 +20706,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "liboischannel",
     owner: "xiaomi",
     strip: {
@@ -20145,6 +20732,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencv",
     owner: "xiaomi",
     strip: {
@@ -20171,6 +20759,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libopencv3a",
     owner: "xiaomi",
     strip: {
@@ -20197,6 +20786,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libportrait_repair_qnn",
     owner: "xiaomi",
     strip: {
@@ -20221,6 +20811,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libpostprocinfo",
     owner: "xiaomi",
     strip: {
@@ -20270,6 +20861,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libproj_qmot_tracker",
     owner: "xiaomi",
     strip: {
@@ -20299,6 +20891,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libproj_sot",
     owner: "xiaomi",
     strip: {
@@ -20330,6 +20923,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqsegnet",
     owner: "xiaomi",
     strip: {
@@ -20362,6 +20956,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libqshcamera",
     owner: "xiaomi",
     strip: {
@@ -20388,6 +20983,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libremosaic_wrapper",
     owner: "xiaomi",
     strip: {
@@ -20412,6 +21008,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libremosaiclib_s5kjn5",
     owner: "xiaomi",
     strip: {
@@ -20437,6 +21034,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libremosaiclib_s5kkd1",
     owner: "xiaomi",
     strip: {
@@ -20462,6 +21060,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "librfs_warp",
     owner: "xiaomi",
     strip: {
@@ -20490,6 +21089,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libshadowhook",
     owner: "xiaomi",
     strip: {
@@ -20514,6 +21114,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsiminputgenutil",
     owner: "xiaomi",
     strip: {
@@ -20554,6 +21155,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsimulation",
     owner: "xiaomi",
     strip: {
@@ -20606,6 +21208,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libsnpe_config",
     owner: "xiaomi",
     strip: {
@@ -20632,6 +21235,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libteecli",
     owner: "xiaomi",
     strip: {
@@ -20657,6 +21261,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libtfacal",
     owner: "xiaomi",
     strip: {
@@ -20685,6 +21290,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libtical",
     owner: "xiaomi",
     strip: {
@@ -20716,6 +21322,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libtouchreport_alg_2",
     owner: "xiaomi",
     strip: {
@@ -20740,6 +21347,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libtouchreport_alg_fts",
     owner: "xiaomi",
     strip: {
@@ -20765,6 +21373,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libvega_common",
     owner: "xiaomi",
     strip: {
@@ -20790,6 +21399,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libvsim",
     owner: "xiaomi",
     strip: {
@@ -20822,6 +21432,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libwa_widelens_undistort",
     owner: "xiaomi",
     strip: {
@@ -20849,6 +21460,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libweaver_empty-nxp",
     owner: "xiaomi",
     strip: {
@@ -20874,6 +21486,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libweaver_empty-thales",
     owner: "xiaomi",
     strip: {
@@ -20899,6 +21512,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "libxmi_slow_motion_mein",
     owner: "xiaomi",
     strip: {
@@ -21044,6 +21658,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.hardware.camera.aon-service-impl",
     owner: "xiaomi",
     strip: {
@@ -21096,6 +21711,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.qti.qvirt-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -21121,6 +21737,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.aidlbgservice-V1-impl",
     owner: "xiaomi",
     strip: {
@@ -21152,6 +21769,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.aidlbgservice-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -21177,6 +21795,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.bgservice@1.0-impl",
     owner: "xiaomi",
     strip: {
@@ -21209,6 +21828,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.bgservice@1.0",
     owner: "xiaomi",
     strip: {
@@ -21237,6 +21857,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.micrtk-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -21262,6 +21883,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mikeybag-impl",
     owner: "xiaomi",
     strip: {
@@ -21293,6 +21915,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.misauth-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -21318,6 +21941,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.misecmedia-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -21344,6 +21968,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mitrustedui-V2-ndk",
     owner: "xiaomi",
     strip: {
@@ -21370,6 +21995,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mrm-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -21395,6 +22021,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.otrpagent@2.0-impl",
     owner: "xiaomi",
     strip: {
@@ -21428,6 +22055,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.seccam-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -21969,15 +22597,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "AHBF-V3-service.xml",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/vintf/manifest/AHBF-V3-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.biometrics.face-v4.xml",
     owner: "xiaomi",
     src: "proprietary/odm/etc/vintf/manifest/android.hardware.biometrics.face-v4.xml",
@@ -22140,6 +22759,7 @@ prebuilt_etc_xml {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "AnchorTest",
     owner: "xiaomi",
     target: {
@@ -22166,6 +22786,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "C2PAInternetService",
     owner: "xiaomi",
     target: {
@@ -22198,6 +22819,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "C2PANativeTestClient",
     owner: "xiaomi",
     target: {
@@ -22228,6 +22850,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "C2PATestClientAIDL",
     owner: "xiaomi",
     target: {
@@ -22257,6 +22880,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "DFtool",
     owner: "xiaomi",
     target: {
@@ -22290,6 +22914,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "GPTEE_Sample_client",
     owner: "xiaomi",
     target: {
@@ -22315,6 +22940,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "KmInstallKeybox",
     owner: "xiaomi",
     target: {
@@ -22348,6 +22974,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "MI_IC",
     owner: "xiaomi",
     target: {
@@ -22374,6 +23001,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "MI_RIC",
     owner: "xiaomi",
     target: {
@@ -22400,6 +23028,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "PalTest",
     owner: "xiaomi",
     target: {
@@ -22425,6 +23054,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "PktRspTest",
     owner: "xiaomi",
     target: {
@@ -22451,6 +23081,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "SoterProvisioningTool",
     owner: "xiaomi",
     target: {
@@ -22481,6 +23112,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "StoreKeybox",
     owner: "xiaomi",
     target: {
@@ -22506,6 +23138,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "TrustedUISampleTAClient",
     owner: "xiaomi",
     target: {
@@ -22544,6 +23177,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "TrustedUISampleTestAIDL",
     owner: "xiaomi",
     target: {
@@ -22577,6 +23211,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "agmcap",
     owner: "xiaomi",
     target: {
@@ -22604,6 +23239,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "agmcompresscap",
     owner: "xiaomi",
     target: {
@@ -22631,6 +23267,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "agmcompressplay",
     owner: "xiaomi",
     target: {
@@ -22658,6 +23295,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "agmhostless",
     owner: "xiaomi",
     target: {
@@ -22684,6 +23322,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "agmplay",
     owner: "xiaomi",
     target: {
@@ -22711,6 +23350,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "agmvoiceui",
     owner: "xiaomi",
     target: {
@@ -22737,6 +23377,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ar_util_in_test_example",
     owner: "xiaomi",
     target: {
@@ -22764,6 +23405,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "athdiag",
     owner: "xiaomi",
     target: {
@@ -22789,6 +23431,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "bootmode",
     owner: "xiaomi",
     target: {
@@ -22813,6 +23456,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ccid_daemon_nr",
     owner: "xiaomi",
     target: {
@@ -22840,6 +23484,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "cnss_cli",
     owner: "xiaomi",
     target: {
@@ -22864,6 +23509,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "cnss_diag",
     owner: "xiaomi",
     target: {
@@ -22896,6 +23542,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "color",
     owner: "xiaomi",
     target: {
@@ -22922,6 +23569,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "csaudiotransfer_test",
     owner: "xiaomi",
     target: {
@@ -22950,6 +23598,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ctlogger",
     owner: "xiaomi",
     target: {
@@ -22974,6 +23623,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ctrlapp_dut",
     owner: "xiaomi",
     target: {
@@ -23003,6 +23653,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "debug-diag",
     owner: "xiaomi",
     target: {
@@ -23029,6 +23680,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diag_callback_sample",
     owner: "xiaomi",
     target: {
@@ -23055,6 +23707,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diag_dci_sample",
     owner: "xiaomi",
     target: {
@@ -23081,6 +23734,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diag_klog",
     owner: "xiaomi",
     target: {
@@ -23107,6 +23761,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diag_mdlog",
     owner: "xiaomi",
     target: {
@@ -23138,6 +23793,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diag_socket_log",
     owner: "xiaomi",
     target: {
@@ -23164,6 +23820,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diag_uart_log",
     owner: "xiaomi",
     target: {
@@ -23190,6 +23847,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "diagcommd",
     owner: "xiaomi",
     target: {
@@ -23217,6 +23875,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "dlsc",
     owner: "xiaomi",
     target: {
@@ -23246,6 +23905,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "dppdaemon",
     owner: "xiaomi",
     target: {
@@ -23271,6 +23931,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "drm_sample_app",
     owner: "xiaomi",
     target: {
@@ -23301,6 +23962,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "e_loop",
     owner: "xiaomi",
     target: {
@@ -23325,6 +23987,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "fan_service",
     owner: "xiaomi",
     target: {
@@ -23351,6 +24014,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "feature_enabler_client",
     owner: "xiaomi",
     target: {
@@ -23385,6 +24049,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ffu",
     owner: "xiaomi",
     target: {
@@ -23409,6 +24074,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "fm_qsoc_patches",
     owner: "xiaomi",
     target: {
@@ -23437,6 +24103,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "fmconfig",
     owner: "xiaomi",
     target: {
@@ -23462,6 +24129,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "fmfactorytest",
     owner: "xiaomi",
     target: {
@@ -23489,6 +24157,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "fmfactorytestserver",
     owner: "xiaomi",
     target: {
@@ -23516,6 +24185,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ftmdaemon",
     owner: "xiaomi",
     target: {
@@ -23547,6 +24217,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "getfattr",
     owner: "xiaomi",
     target: {
@@ -23575,6 +24246,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "getopt",
     owner: "xiaomi",
     target: {
@@ -23603,6 +24275,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "hal_proxy_daemon",
     owner: "xiaomi",
     target: {
@@ -23631,6 +24304,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "android.hardware.keymaster@4.0-service-qti",
     owner: "xiaomi",
     target: {
@@ -23665,6 +24339,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qvrservice",
     owner: "xiaomi",
     target: {
@@ -23696,6 +24371,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.ozoaudio.notify@1.0-service",
     owner: "xiaomi",
     target: {
@@ -23727,6 +24403,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.qti.MemHal-service",
     owner: "xiaomi",
     target: {
@@ -23759,6 +24436,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.qti.hardware.minkipcbinder@1.0-service",
     owner: "xiaomi",
     target: {
@@ -23791,6 +24469,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.aidl.minet@1.0-service",
     owner: "xiaomi",
     target: {
@@ -23827,6 +24506,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.aidl.miwill@1.0-service",
     owner: "xiaomi",
     target: {
@@ -23862,6 +24542,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.cit.wifi-service",
     owner: "xiaomi",
     target: {
@@ -23896,6 +24577,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.batteryantiaging-service",
     owner: "xiaomi",
     target: {
@@ -23935,6 +24617,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.cld_aidl-service",
     owner: "xiaomi",
     target: {
@@ -23966,6 +24649,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.dynamiccameraserver",
     owner: "xiaomi",
     target: {
@@ -24000,6 +24684,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.fbo-service",
     owner: "xiaomi",
     target: {
@@ -24035,6 +24720,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mimd2-service",
     owner: "xiaomi",
     target: {
@@ -24066,6 +24752,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.miperf2-service",
     owner: "xiaomi",
     target: {
@@ -24106,6 +24793,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.misys.core-service",
     owner: "xiaomi",
     target: {
@@ -24136,6 +24824,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.swap-service",
     owner: "xiaomi",
     target: {
@@ -24171,6 +24860,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.videoservice-service",
     owner: "xiaomi",
     target: {
@@ -24211,6 +24901,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.modem.qms@1.0-service",
     owner: "xiaomi",
     target: {
@@ -24244,6 +24935,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "hypsys_vendor",
     owner: "xiaomi",
     target: {
@@ -24281,6 +24973,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ioprofiler",
     owner: "xiaomi",
     target: {
@@ -24315,6 +25008,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ipacm-diag",
     owner: "xiaomi",
     target: {
@@ -24342,6 +25036,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "iperf3.zc",
     owner: "xiaomi",
     target: {
@@ -24366,6 +25061,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ipp_key_gen",
     owner: "xiaomi",
     target: {
@@ -24394,6 +25090,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ipp_test",
     owner: "xiaomi",
     target: {
@@ -24421,6 +25118,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mbnota",
     owner: "xiaomi",
     target: {
@@ -24449,6 +25147,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mcs_test",
     owner: "xiaomi",
     target: {
@@ -24480,6 +25179,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mi_ambient",
     owner: "xiaomi",
     target: {
@@ -24506,6 +25206,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mibpftest",
     owner: "xiaomi",
     target: {
@@ -24539,6 +25240,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "minetd",
     owner: "xiaomi",
     target: {
@@ -24572,6 +25274,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mm-audio-ftm",
     owner: "xiaomi",
     target: {
@@ -24600,6 +25303,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "modem_hydra_test",
     owner: "xiaomi",
     target: {
@@ -24625,6 +25329,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mtb",
     owner: "xiaomi",
     target: {
@@ -24658,6 +25363,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "myftm",
     owner: "xiaomi",
     target: {
@@ -24685,6 +25391,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "pktlogconf",
     owner: "xiaomi",
     target: {
@@ -24709,6 +25416,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "pmic_key_reset",
     owner: "xiaomi",
     target: {
@@ -24734,6 +25442,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "pnscr",
     owner: "xiaomi",
     target: {
@@ -24764,6 +25473,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qesdk-secmanager",
     owner: "xiaomi",
     target: {
@@ -24800,6 +25510,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qsap_dcfd",
     owner: "xiaomi",
     target: {
@@ -24837,6 +25548,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qsap_sensors",
     owner: "xiaomi",
     target: {
@@ -24872,6 +25584,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qsap_voiceui",
     owner: "xiaomi",
     target: {
@@ -24900,6 +25613,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qsh_wifi_test",
     owner: "xiaomi",
     target: {
@@ -24935,6 +25649,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qt-service",
     owner: "xiaomi",
     target: {
@@ -24970,6 +25685,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qttestclient",
     owner: "xiaomi",
     target: {
@@ -25002,6 +25718,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qttestservice",
     owner: "xiaomi",
     target: {
@@ -25033,6 +25750,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "qwes_cli",
     owner: "xiaomi",
     target: {
@@ -25067,6 +25785,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "rpmbClient",
     owner: "xiaomi",
     target: {
@@ -25096,6 +25815,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "setfattr",
     owner: "xiaomi",
     target: {
@@ -25124,6 +25844,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "show_reserved_mem",
     owner: "xiaomi",
     target: {
@@ -25152,6 +25873,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "sigma_dut",
     owner: "xiaomi",
     target: {
@@ -25183,6 +25905,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "smcinvoke_example",
     owner: "xiaomi",
     target: {
@@ -25212,6 +25935,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "smcinvoke_skeleton",
     owner: "xiaomi",
     target: {
@@ -25241,6 +25965,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "smcinvoke_skeleton_cpp",
     owner: "xiaomi",
     target: {
@@ -25270,6 +25995,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "spectraltool",
     owner: "xiaomi",
     target: {
@@ -25296,6 +26022,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ssgqmigd",
     owner: "xiaomi",
     target: {
@@ -25320,6 +26047,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "sxrservicetest",
     owner: "xiaomi",
     target: {
@@ -25351,6 +26079,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "test_diag",
     owner: "xiaomi",
     target: {
@@ -25377,6 +26106,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ubwcp_test64",
     owner: "xiaomi",
     target: {
@@ -25404,6 +26134,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "ufs_utils",
     owner: "xiaomi",
     target: {
@@ -25428,6 +26159,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor_cmd_tool",
     owner: "xiaomi",
     target: {
@@ -25454,6 +26186,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vppcommonlibraryunittest",
     owner: "xiaomi",
     target: {
@@ -25483,6 +26216,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vpplibraryfunctionaltest",
     owner: "xiaomi",
     target: {
@@ -25513,6 +26247,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vpplibraryunittest",
     owner: "xiaomi",
     target: {
@@ -25546,6 +26281,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vppserviceunittest",
     owner: "xiaomi",
     target: {
@@ -25577,6 +26313,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "wallpapercolor",
     owner: "xiaomi",
     target: {
@@ -25603,6 +26340,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "wdsdaemon",
     owner: "xiaomi",
     target: {
@@ -25630,6 +26368,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "wifilearner",
     owner: "xiaomi",
     target: {
@@ -25660,6 +26399,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "wlanramdumpcollector",
     owner: "xiaomi",
     target: {
@@ -25688,6 +26428,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "xiaomi_cellinfo_test",
     owner: "xiaomi",
     target: {
@@ -25715,6 +26456,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "xiaomi_extend_cmd",
     owner: "xiaomi",
     target: {
@@ -25743,6 +26485,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "dpmd",
     owner: "xiaomi",
     target: {
@@ -25774,6 +26517,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "audio-factory-test",
     owner: "xiaomi",
     target: {
@@ -25802,6 +26546,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "cstool",
     owner: "xiaomi",
     target: {
@@ -25850,6 +26595,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "android.hardware.weaver-service.nxp-qti",
     owner: "xiaomi",
     target: {
@@ -25900,6 +26646,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mifaced",
     owner: "xiaomi",
     target: {
@@ -25927,6 +26674,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "misensor_camera",
     owner: "xiaomi",
     target: {
@@ -25962,6 +26710,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.novatek.hardware.visdisplaysrv-service",
     owner: "xiaomi",
     target: {
@@ -25998,6 +26747,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.qti.camera.provider-service_64",
     owner: "xiaomi",
     target: {
@@ -26051,6 +26801,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.qti.hardware.lights.service",
     owner: "xiaomi",
     target: {
@@ -26081,6 +26832,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.vibratorfeature.service",
     owner: "xiaomi",
     target: {
@@ -26122,6 +26874,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "micrtkd",
     owner: "xiaomi",
     target: {
@@ -26159,6 +26912,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "misecmedia",
     owner: "xiaomi",
     target: {
@@ -26204,6 +26958,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mitee_info",
     owner: "xiaomi",
     target: {
@@ -26229,6 +26984,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mitee_shell",
     owner: "xiaomi",
     target: {
@@ -26255,6 +27011,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "miteelog",
     owner: "xiaomi",
     target: {
@@ -26280,6 +27037,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mrmd",
     owner: "xiaomi",
     target: {
@@ -26318,6 +27076,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "mseccam",
     owner: "xiaomi",
     target: {
@@ -26363,6 +27122,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "nvt_test",
     owner: "xiaomi",
     target: {
@@ -26394,6 +27154,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "nvt_test_hal",
     owner: "xiaomi",
     target: {
@@ -26426,6 +27187,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "tee-supplicant",
     owner: "xiaomi",
     target: {
@@ -26462,6 +27224,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "test-aon",
     owner: "xiaomi",
     target: {
@@ -26496,6 +27259,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "touch_report_debug",
     owner: "xiaomi",
     target: {
@@ -26520,6 +27284,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mikeybag-service",
     owner: "xiaomi",
     target: {
@@ -26552,6 +27317,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.mitrustedui-service",
     owner: "xiaomi",
     target: {
@@ -26595,6 +27361,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vendor.xiaomi.hardware.otrpagent@2.0-service",
     owner: "xiaomi",
     target: {
@@ -26624,6 +27391,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vib_cal",
     owner: "xiaomi",
     target: {
@@ -26651,6 +27419,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "vsimd",
     owner: "xiaomi",
     target: {
@@ -26684,6 +27453,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    check_elf_files: false,
     name: "xiaomi_ir_test",
     owner: "xiaomi",
     target: {
